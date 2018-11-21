@@ -1,8 +1,5 @@
-server:
-  port: 8090
-
-management:
-  security:
-    enabled: false    
-
-promotion: action
+api:
+  bff:
+    path: /
+  services:
+    url: http://localhost:9999/awesome-media
